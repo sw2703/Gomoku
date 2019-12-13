@@ -13,7 +13,7 @@ python main.py
 
 ## Collaboration
 
-Received & Provided consultation and advice to [Yue Ma](https://github.com/yueMaHello) and [Yiding Fan](https://github.com/yidingfan).
+TongTongX received & Provided consultation and advice to [Yue Ma](https://github.com/yueMaHello) and [Yiding Fan](https://github.com/yidingfan).
 
 ## Credits
 
