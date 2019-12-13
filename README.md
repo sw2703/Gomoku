@@ -1,6 +1,6 @@
 # Gomoku
 
-A Gomuku game playing program in Python 3 and Tkinter.
+A Gomuku game playing program in Python 3 and Tkinter. UI and minimax algorithm by the original authors. Reinforcement learning algorithms by sw2703. 
 
 ## Setup
 
