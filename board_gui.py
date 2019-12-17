@@ -146,7 +146,7 @@ class BoardCanvas(tk.Canvas):
 					square_y = math.pow((event.y - pixel_y), 2)
 					distance =  math.sqrt(square_x + square_y)
 
-					# since there is noly one intersection such that the distance between it 
+					# since there is only one intersection such that the distance between it 
 					# and where the user clicks is less than 15, it is not necessary to find 
 					# the actual least distance
 					if (distance < 15) and (self.gameBoard.board()[i][j] == 0):
@@ -163,7 +163,7 @@ class BoardCanvas(tk.Canvas):
 						self.unbind('<Button-1>')
 						break	# break the inner for loop
 				else:
-					continue	# executed if the inner for loop ended normally(no break)
+					continue	    # executed if the inner for loop ended normally(no break)
 				break			# executed if 'continue' skipped(break)
 								# break the outer for loop
 			
