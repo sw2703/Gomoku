@@ -97,9 +97,7 @@ class BoardSearcher(object):
 	def search(self, turn, depth=3):
 		self.maxdepth = depth
 		self.bestmove = None
-		score = self.__search(turn, depth)
-		if abs(score) > 8000:
-			self.maxdepth = depth
-			score = self.__search(turn, 1)
-		row, col = self.bestmove
-		return score, row, col
+		for i in range(15):
+			for j in range(15):
+				if self.board[i][j] == 0: return 0, i, j
+        
